@@ -137,11 +137,24 @@
     border-color: #4f4f4f;
 }
 
-.iconDelete:hover {
-    fill: white;
+.iconDelete:hover path {
+    fill: #D22B2B;
 }
 
+.max-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 3em;
+    min-height: 3em;
+}
 
+.max-lines:hover {
+    overflow: visible;
+    white-space: normal;
+    height: auto;
+}
 
 
 

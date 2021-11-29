@@ -15,6 +15,7 @@ class Post extends Model
         'title',
         'content',
         'error',
+        'error_list',
         'created_at'
     ];
 }

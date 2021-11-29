@@ -16,11 +16,14 @@
             @csrf
 
             <div class="w-80 m-auto">
+                <span class="z-10 h-full leading-snug font-normal absolutetext-center text-gray-400 absolute bg-transparent rounded items-center justify-center pl-3 py-3">
+                    <i class="fa fa-user"></i>
+                </span>
                 <input id="email" type="email"
-                    class="form-input w-full @error('email') border-red-500 @enderror" name="email"
+                    class="form-input w-full pl-9 @error('email') border-red-500 @enderror" name="email"
                     value="{{ old('email') }}" required autocomplete="email" 
                     style="font-family: 'Font Awesome 5 Free', 'system-ui'; background: #181A1B; border: 1px solid #4f4f4f" 
-                    placeholder="&#xf007;  Username" required>
+                    placeholder="Username" required>
 
                 @error('email')
                 <p class="text-red-500 text-xs italic mt-4">
@@ -30,12 +33,13 @@
             </div>
 
             <div class="w-80 m-auto">
+                <span class="z-10 h-full leading-snug font-normal absolutetext-center text-gray-400 absolute bg-transparent rounded items-center justify-center pl-3 py-3">
+                    <i class="fas fa-unlock-alt"></i>
+                </span>
                 <input id="password" type="password"
-                    class="form-input w-full @error('password') border-red-500 @enderror" name="password" 
-                    style="font-family: 'Font Awesome 5 Free', 'system-ui'; background: #181A1B; border: 1px solid #4f4f4f" 
-                    placeholder="&#xf007;  Password"
-                    required>
-
+                    class="form-input w-full pl-9 @error('password') border-red-500 @enderror" name="password" 
+                    style="font-family: 'Font Awesome 5 Free', 'system-ui'; background: #181A1B;border: 1px solid #4f4f4f" 
+                    placeholder="Password" required>
                 @error('password')
                 <p class="text-red-500 text-xs italic mt-4">
                     {{ $message }}

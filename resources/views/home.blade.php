@@ -5,7 +5,7 @@
     <div class="lg:pl-64">
         <div class="flex gap-4 text-white font-semibold mb-5">
             <div>
-                <button class="flex items-center gap-2 py-3 px-4 bg-orange-400 rounded-md font-semibold" onclick="window.location='{{ route('login') }}'">
+                <button class="flex items-center gap-2 py-3 px-4 bg-orange-400 rounded-md font-semibold" onclick="window.location='{{ route('showAllPosts') }}'">
                 <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.02704 2.05409C1.59426 2.05409 2.05409 1.59426 2.05409 1.02704C2.05409 0.459823 1.59426 0 1.02704 0C0.459823 0 0 0.459823 0 1.02704C0 1.59426 0.459823 2.05409 1.02704 2.05409Z" fill="white"/>
                     <path d="M1.02704 6.16227C1.59426 6.16227 2.05409 5.70245 2.05409 5.13523C2.05409 4.56801 1.59426 4.10818 1.02704 4.10818C0.459823 4.10818 0 4.56801 0 5.13523C0 5.70245 0.459823 6.16227 1.02704 6.16227Z" fill="white"/>
